@@ -1,0 +1,31 @@
+{
+    "name": "datadome/fraud-sdk-laravel",
+    "description": "DataDome Fraud Protection for Laravel PHP applications",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "DataDome\\FraudSdkLaravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DataDome\\FraudSdkLaravel\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DataDome",
+            "email": "team.integrations@datadome.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "datadome/fraud-sdk-symfony": "^1.0.4",
+        "laravel/framework": "^10.18"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3",
+        "orchestra/testbench": "^8.10"
+    }
+}
